@@ -125,13 +125,25 @@ int main() {
 				break;
 			}
 			case '3': {
-				q.display
-
-			
-
-
+				q.display();
+				break;
+			}
+			case '4': {
+				return 0;
+			}
+			default: {
+				cout << "Invalid option bro!!" << endl;
+				break;
+			}
+			}
 		}
+		catch (exception& e) {
+			cout << "Check for the values entered." << endl;
+		}
+
 	}
+
+	return 0;
 
 }
 		
