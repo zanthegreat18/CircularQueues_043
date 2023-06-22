@@ -92,7 +92,26 @@ public:
 			// Iterasi dari awal array hingga REAR
 			while (FRONT_position <= REAR_position) {
 				cout << queues_array[FRONT_position] << " ";
-				FRONT
+				FRONT_position++;
+			}
+			cout << endl;
+		}
+	}
+
+};
+int main() {
+	Queues q;
+	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+			cout << "1. Implement insert operation" << endl;
+			cout
+		}
+	}
+
+}
 		
 			
 
