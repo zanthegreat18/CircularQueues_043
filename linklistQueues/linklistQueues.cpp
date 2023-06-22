@@ -38,3 +38,10 @@ public:
 		queues_array[REAR] = num;
 	}
 
+	void removed() {
+		// Cek apakah antrian kosong
+		if (FRONT == -1) {
+			cout << "Queue underflow\n";
+			return;
+		}
+
